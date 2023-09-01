@@ -4,4 +4,7 @@ h1{
 .red-text{
     color:pink;
 }
+p[draggable]{
+    color:red;
+}
 
