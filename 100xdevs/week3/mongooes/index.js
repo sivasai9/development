@@ -10,3 +10,4 @@ const ser=new user({
     password:'12345'});
 
 ser.save();
+console.log(user);

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <script>
+        function onbutton(){
+            const currentvalue=document.getElementById("bin").innerHTML;
+            const curretnconter=currentvalue.split(" ")[1];
+            const newcounter=parseInt(curretnconter) + 1;
+            document.getElementById("bin").innerHTML="counter  " + newcounter;
+        }
+    </script>
+
+<body>
+    <button onclick="onbutton()" id="bin">counter 0</button>
+    
+</body>
+</html>
